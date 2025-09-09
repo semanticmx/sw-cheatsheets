@@ -24,3 +24,37 @@ export NVM_DIR="$HOME/.nvm"
 3. Cretae .nvmrc file in the root of the app/project and store the required node version
 4. Run `nvm use`
 
+### Usage
+
+1. Check required node version from app
+2. List nvm available versions using `nvm list`
+3. Cretae .nvmrc file in the root of the app/project and store the required node version
+4. Run `nvm use`
+
+#### Install node packages
+
+We can use Yarn or Bun package managers to install packages
+
+##### YARN
+
+```zsh
+npm install --global yarn
+yarn --version
+```
+
+##### BUN
+
+```zsh
+curl -fsSL https://bun.sh/install | bash
+```
+
+##### Usage
+
+```zsh
+yarn create slidev
+```
+
+```zsh
+bun create slidev
+```
+
